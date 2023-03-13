@@ -1,0 +1,62 @@
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+    animation-name: body;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+.gunduz{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.gece{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    background-color: cyan;
+    position: absolute;
+    animation-name: gece;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes gece{
+    0%{
+        right: 335px;
+        background-color: cyan;
+    }
+    50%{
+        right: 623px;
+        background-color: gray;
+    }
+    70%{
+        background-color: gray;
+    }
+
+    100%{
+        right: 920px;
+        background-color: cyan;;
+    }
+
+}
+@keyframes body{
+    0%{
+        background-color: cyan;
+    }
+    50%{
+        background-color: gray;
+    }
+    70%{
+        background-color: grey
+    }
+    100%{
+        background-color: cyan;
+    }
+}
